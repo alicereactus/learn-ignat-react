@@ -1,0 +1,27 @@
+.superInput {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(40, 34, 47);
+    border: solid 2px white;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}
+
+.errorInput {
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    border: 2px solid lime;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}
+
+.error {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: red;
+}

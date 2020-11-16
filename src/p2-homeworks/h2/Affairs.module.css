@@ -1,0 +1,12 @@
+.todoListWrapper {
+    background-color: palegreen;
+}
+
+.todo {
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+}
+
+.btnDelete {
+    background-color: red;
+}

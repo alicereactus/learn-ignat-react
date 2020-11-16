@@ -1,0 +1,72 @@
+.messageWrapper {
+    position: relative;
+    width: 410px;
+    height: 130px;
+
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+
+    background-color: greenyellow;
+}
+
+.avatar img {
+    position: absolute;
+    left: 6px;
+    bottom: 6px; 
+
+    width: 50px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.messageInfo {
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+
+    margin: 2px 0px 2px 0px;
+    width: 340px;
+
+    padding: 4px 4px 4px 4px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    background-color: black;
+}
+
+.messagePersonName {
+    position: relative;
+    margin: 0px 4px 0px 7px;
+
+    font-weight: bold;
+    color: pink;
+}
+
+.messagePersonName p {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.messageText {
+    position: relative;
+    margin: 0px 4px 0px 7px;
+
+    color: white
+}
+
+.messageText p {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.messageTime {
+    position: relative;
+    float: right;
+    margin: 4px;
+
+    font-size: 14px;
+    color: grey;
+}

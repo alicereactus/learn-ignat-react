@@ -1,0 +1,23 @@
+.default {
+    margin: 5px;
+    padding: 5px;
+    background:  rgb(40, 34, 47);
+    border: 2px solid white;
+    border-radius: 15px;
+    outline: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+
+/* .red {
+    margin: 5px;
+    padding: 5px;
+    background:  red;
+    border: 2px solid white;
+    border-radius: 15px;
+    outline: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+} */
