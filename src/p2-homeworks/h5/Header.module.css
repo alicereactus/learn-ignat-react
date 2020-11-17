@@ -1,0 +1,37 @@
+.navbarList:hover{
+    margin-right: 30px;
+    width: 160px;
+    height: 85vh;
+
+    background-color: rgb(59, 15, 73);
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.navbarItem {
+    margin: 10px;
+}
+
+.navbarItem a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbarItem a.activeLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.navbarItem a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
