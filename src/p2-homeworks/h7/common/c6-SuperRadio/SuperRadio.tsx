@@ -1,5 +1,4 @@
 import React, {ChangeEvent, InputHTMLAttributes, DetailedHTMLProps} from "react";
-import s from './Checkbox.module.css'
 
 type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 
@@ -29,7 +28,7 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
                 checked
                 value={value}
                 onChange={onChangeCallback}
-                className={s.Checkbox}
+                // className={s.Checkbox}
             />
             {o}
         </label>
