@@ -28,7 +28,6 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
                 checked
                 value={value}
                 onChange={onChangeCallback}
-                // className={s.Checkbox}
             />
             {o}
         </label>
