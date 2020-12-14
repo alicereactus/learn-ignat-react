@@ -8,24 +8,36 @@ function Clock() {
 
     const stop = () => {
         // stop
+        clearInterval(timerId)
     }
     const start = () => {
         stop();
         const id: number = window.setInterval(() => {
             // setDate
+            setDate(new Date())
         }, 1000);
         setTimerId(id);
     }
 
     const onMouseEnter = () => {
         // show
+        setShow(true)
     };
     const onMouseLeave = () => {
         // close
+        setShow(false)
     };
 
-    const stringTime = "Time"; // fix with date
-    const stringDate = "Date"; // fix with date
+    const hours = new Date().getHours() < 10 ? `0${new Date().getHours()}` : `${new Date().getHours()}`
+    const minutes = new Date().getMinutes() < 10 ? `0${new Date().getMinutes()}` : `${new Date().getMinutes()}`
+    const seconds = new Date().getSeconds() < 10 ? `0${new Date().getSeconds()}` : `${new Date().getSeconds()}`
+
+    const day = new Date().getDate() < 10 ? `0${new Date().getDate()}` : `${new Date().getDate()}`
+    const month = new Date().getMonth() + 1 < 10 ? `0${new Date().getMonth() + 1}` : `${new Date().getMonth() + 1}`
+    const year = `${new Date().getFullYear()}`
+
+    const stringTime = `${hours}:${minutes}:${seconds}` // fix with date
+    const stringDate = `${day}-${month}-${year}`; // fix with date
 
     return (
         <div>
