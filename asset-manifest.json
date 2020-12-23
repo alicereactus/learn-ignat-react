@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/learn-ignat-react/static/css/main.76e2c14d.chunk.css",
-    "main.js": "/learn-ignat-react/static/js/main.942e12eb.chunk.js",
-    "main.js.map": "/learn-ignat-react/static/js/main.942e12eb.chunk.js.map",
+    "main.js": "/learn-ignat-react/static/js/main.3f0cfee7.chunk.js",
+    "main.js.map": "/learn-ignat-react/static/js/main.3f0cfee7.chunk.js.map",
     "runtime-main.js": "/learn-ignat-react/static/js/runtime-main.81821f28.js",
     "runtime-main.js.map": "/learn-ignat-react/static/js/runtime-main.81821f28.js.map",
     "static/js/2.6cb0e094.chunk.js": "/learn-ignat-react/static/js/2.6cb0e094.chunk.js",
     "static/js/2.6cb0e094.chunk.js.map": "/learn-ignat-react/static/js/2.6cb0e094.chunk.js.map",
     "index.html": "/learn-ignat-react/index.html",
-    "precache-manifest.cb371d31c19a23c75657706d817226c5.js": "/learn-ignat-react/precache-manifest.cb371d31c19a23c75657706d817226c5.js",
+    "precache-manifest.8f7854c3c7b5d45b491eedbdcc11d470.js": "/learn-ignat-react/precache-manifest.8f7854c3c7b5d45b491eedbdcc11d470.js",
     "service-worker.js": "/learn-ignat-react/service-worker.js",
     "static/css/main.76e2c14d.chunk.css.map": "/learn-ignat-react/static/css/main.76e2c14d.chunk.css.map",
     "static/js/2.6cb0e094.chunk.js.LICENSE.txt": "/learn-ignat-react/static/js/2.6cb0e094.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.81821f28.js",
     "static/js/2.6cb0e094.chunk.js",
     "static/css/main.76e2c14d.chunk.css",
-    "static/js/main.942e12eb.chunk.js"
+    "static/js/main.3f0cfee7.chunk.js"
   ]
 }
