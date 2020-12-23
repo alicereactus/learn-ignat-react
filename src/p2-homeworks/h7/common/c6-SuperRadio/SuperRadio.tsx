@@ -25,8 +25,8 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
             <input
                 type={"radio"}
                 name={name}
-                checked
-                value={value}
+                checked={value === o}
+                value={o}
                 onChange={onChangeCallback}
             />
             {o}
