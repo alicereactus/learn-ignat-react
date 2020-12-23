@@ -13,7 +13,7 @@ function HW10() {
 
     const setLoading = (isLoading: boolean) => {
         dispatch(loadingAC(isLoading))
-        setTimeout(() => dispatch(loadingAC(!isLoading)), 5000)
+        setTimeout(() => dispatch(loadingAC(!isLoading)), 2000)
         console.log("loading...");
     };
 
