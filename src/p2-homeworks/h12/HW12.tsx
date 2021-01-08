@@ -1,9 +1,10 @@
 import React from "react";
 import { useSelector, useDispatch } from 'react-redux'
+
 import { AppStoreType } from "../h10/bll/store";
+import { changeThemeAC } from "./bll/themeReducer";
 
 import SuperSelect from "../h7/common/c5-SuperSelect/SuperSelect";
-import { changeThemeAC } from "./bll/themeReducer";
 import s from "./HW12.module.css";
 
 const themes = ['dark', 'red', 'some'];
