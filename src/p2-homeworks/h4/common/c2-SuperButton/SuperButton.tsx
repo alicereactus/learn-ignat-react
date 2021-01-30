@@ -8,8 +8,6 @@ type SuperButtonPropsType = DefaultButtonPropsType & {
   red?: boolean
 }
 
-
-
 const SuperButton: React.FC<SuperButtonPropsType> = (
   {
     red, className,
